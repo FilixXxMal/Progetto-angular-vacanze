@@ -3,20 +3,20 @@ import {loginDati} from './bacheca';
 import {commenti} from './bacheca';
 
 export const Utenti: bacheca[] = [
-  { nome: 'Luca',cognome: 'Rossi',  email: 'luca.giurato@gmlai.it', password: 'xxx123##', numeri: '3456789002'},
-  { nome: 'Umberto',cognome: 'Verdi',  email: 'umberto.verdi@gmlai.it', password: 'xxx345##', numeri: '3496389102'}
+  { nome: 'Filippo',cognome: 'Maldifassi',  email: 'maldifassi.filippo.maria@iisgalvanimi.edu.it', password: 'qwerty12345**', numeri: '3334860741'},
+  { nome: 'Riccardo',cognome: 'Piarriello',  email: 'piarriello.riccardo@gmlai.it', password: 'asdfgh98765', numeri: '3317690009'}
 
 ];
 export const Dati: loginDati[] = [
-  { nomeLogin: 'Luca',cognomeLogin: 'Rossi'},
-  { nomeLogin: 'Umberto',cognomeLogin: 'Verdi'}
+  { nomeLogin: 'Filippo',cognomeLogin: 'Maldifassi'},
+  { nomeLogin: 'Riccardo',cognomeLogin: 'Piarriello'}
 ];
 export const CommentoUtente: commenti[] = [
-  { commento: 'Vedo macchina da cucire', nome: 'Luca', cognome: 'Rossi',
+  { commento: 'Vedo occhiali da sole di marca', nome: 'Filippo', cognome: 'Maldifassi',
   vettRisposte:[
-    {risposta: "la compro", nome: "Umberto", cognome: "Verdi"}
+    {risposta: "li compro io", nome: "Riccardo", cognome: "Piarriello"}
   ]},
-  { commento: 'Cerco macchina Tesla', nome: 'Umberto', cognome: 'Verdi', vettRisposte:[
-    {risposta: "te la vendo io", nome: "Luca", cognome: "Rossi"}
+  { commento: 'Cerco macchina Ferrari', nome: 'Riccardo', cognome: 'Piarriello', vettRisposte:[
+    {risposta: "te la posso vendere io", nome: "Filippo", cognome: "Maldifassi"}
   ]}
 ];

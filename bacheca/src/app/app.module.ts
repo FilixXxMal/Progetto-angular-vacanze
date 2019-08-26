@@ -8,8 +8,6 @@ import { NewObjectComponent } from './new-object/new-object.component';
 import { NewPostComponent } from './new-post/new-post.component';
 import { UserObjectsComponent } from './user-objects/user-objects.component';
 import { ObjectsListComponent } from './objects-list/objects-list.component';
-import { HelloWorldComponent } from './hello-world/hello-world.component';
-import { ObjectListComponent } from './object-list/object-list.component';
 
 
 @NgModule({
@@ -20,8 +18,6 @@ import { ObjectListComponent } from './object-list/object-list.component';
     NewPostComponent,
     UserObjectsComponent,
     ObjectsListComponent,
-    HelloWorldComponent,
-    ObjectListComponent,
 
   ],
   imports: [
