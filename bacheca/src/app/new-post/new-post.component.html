@@ -1,0 +1,22 @@
+<form>
+<div class="dropdown">
+  <button class="dropbtn">Oggetti</button>
+  <div class="dropdown-content" >
+    <ul class = "objects">
+      <li *ngFor = "let oggetto of objects"
+        [class.selected] = "oggetto === selectedOgg"
+        (click) = "visuaOggetti(oggetto)">
+        {{oggetto.oggetto}}
+      </li>
+    <!--<a *ngFor = "let oggetti of ogg" (click)="visuaOggetti()">{{oggetti.descrizione}}</a>-->
+    </ul>
+  </div>
+  <div *ngIf = "selectedOgg">
+  <li *ngFor = "let visua of vettVisua" >
+    {{visua.nome}} {{visua.cognome}} {{visua.oggetto}} {{visua.descrizione}} {{visua.prezzo}} {{visua.link}}
+  </li>
+  </div>
+</div>
+
+</form><br>
+<app-user-objects [vOgg] = "ogg" [uLog] = "uLog1"></app-user-objects>

@@ -1,0 +1,9 @@
+<div *ngIf = "uLog" >
+  <button class="btn btn-primary" (click)="visuaUO()">Visua Oggetti Utente Loggato</button>
+  <div>
+    <ul *ngFor="let vou of vettOggUtente">
+      <li>{{vou.nome}} {{vou.cognome}} --> {{vou.oggetto}}</li>
+    </ul>
+  </div>
+</div>
+<app-objects-list [vettoreLista] = "vOgg"></app-objects-list>
