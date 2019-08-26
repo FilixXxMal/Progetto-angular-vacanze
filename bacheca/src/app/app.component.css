@@ -1,15 +1,15 @@
 @import '~bootstrap/dist/css/bootstrap.css';
 
 .ng-valid:not(form) {
-   border-left: 5px solid #42A948; /* green */
+   border-left: 5px solid rgb(4, 252, 17); /* green */
  }
  .ng-invalid:not(form)  {
-   border-left: 5px solid #a94442; /* red */
+   border-left: 5px solid #fc0b07; /* red */
  }
 .right{float:right;}
 .myForm{
-    background-color: blue;
+    background-color: rgb(1, 1, 252);
 }
 .myForm2{
-    background-color: yellow;
+    background-color: pink;
 }
