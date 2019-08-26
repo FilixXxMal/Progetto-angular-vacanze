@@ -1,8 +1,8 @@
 @import '~bootstrap/dist/css/bootstrap.css';
 
 .ng-valid:not(form) {
-   border-left: 5px solid #42A948; /* green */
+   border-left: 5px solid rgb(8, 235, 19); /* green */
  }
  .ng-invalid:not(form)  {
-   border-left: 5px solid #a94442; /* red */
+   border-left: 5px solid #f70c08; /* red */
  }
